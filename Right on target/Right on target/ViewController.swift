@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     lazy var secondViewController: SecondViewController = getSecondViewController()
     
     private func getSecondViewController() -> SecondViewController{
-        // загрузка storyboard (Класс UIStoryboard позволяет представить storyboard-файл в виде программ- ной сущности)
+        // загрузка storyboard (Класс UIStoryboard позволяет представить storyboard-файл в виде программной сущности)
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
         // загрузка viewController и его сцены со storyboard
